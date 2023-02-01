@@ -1,0 +1,43 @@
+.Tarea-form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    gap: .2em;
+
+    /* background-color: aliceblue; */
+
+}
+.Tarea-input {
+    width: 80%;
+    font-size: 1.4em;
+    
+
+    padding: .6em;
+    border-radius: .9em;
+    border: 2px solid var(--color_primario);
+    outline: none;
+
+}
+.Tarea-boton {
+    padding: .6em;
+    background: none;
+    
+    border: 2px solid var(--color_borde);
+    border-radius: .6em;
+
+    font-size: 1.2em;
+
+    color: var(--color_fuente);
+    
+    transition: all .1s ease-in;
+
+    cursor: pointer;
+}
+.Tarea-boton:hover {
+    border-radius: 2em;
+}
+.Tarea-boton:active {
+    transform: rotate(2deg);
+}

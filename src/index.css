@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: var(--fuente);
+
+}
+
+:root {
+    --color_fondo: #1a0c1a;
+    --color_primario: #693167;
+    --color_secundario: #4f254d;
+    --color_borde: #F8F8FF;
+    --color_fuente: #F8F8FF;
+
+    --fuente: 'Cabin', sans-serif;
+
+}
+
+
+#root {
+    max-width: 118.75em;
+    min-height: min-content;
+    /* background-color: lightblue; */
+}
+
+body {
+    background: url(./assets/svg/pattern.svg);
+    scroll-behavior: smooth;
+    
+}

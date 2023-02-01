@@ -1,0 +1,13 @@
+.Container {
+    width: 30em;
+    min-height: 30em;
+    background: linear-gradient(
+        0deg,
+        var(--color_primario),
+        var(--color_secundario)
+    );
+    margin: 3em auto;
+    padding: 1.3em;
+    border-radius: 2em 3em;
+    border: 2px solid var(--color_borde);
+}
